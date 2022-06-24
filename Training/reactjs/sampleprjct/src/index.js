@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; 
-import App from './JiraLogin'
+import App from './JiraList'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
