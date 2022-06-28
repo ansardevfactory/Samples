@@ -22,5 +22,3 @@ con.connect(function(err){
         })
     }
 })
-
- 
