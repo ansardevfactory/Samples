@@ -1,0 +1,101 @@
+body {
+  background-image: linear-gradient(
+    90deg,
+    rgb(174, 118, 145),
+    rgb(43, 85, 145)
+  );
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.index_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.index_inner_profile {
+  background-color: rgb(0, 43, 71);
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: -50px;
+  z-index: 2;
+}
+.index_inner_profile img {
+  width: 60px;
+  height: auto;
+}
+.index_inner_input {
+  display: flex;
+  margin-top: 10px;
+  background-color: yellow;
+  margin-bottom: 10px;
+}
+.index_inner_input img {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 43, 71);
+  padding: 10px;
+}
+.index_inner_input input {
+  width: 100%;
+  min-width: 300px;
+  outline: none;
+  padding-left: 5px;
+  border: none;
+  color: white;
+  box-sizing: border-box;
+  background-color: rgb(58, 82, 116);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.index_inner_input input::placeholder {
+  color: rgb(179, 174, 174);
+}
+.index_inner_labels {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.index_inner_labels div {
+  display: flex;
+  align-items: center;
+}
+.index_inner_main {
+  background-image: linear-gradient(
+    90deg,
+    rgb(214, 191, 201),
+    rgb(162, 177, 206)
+  );
+  z-index: 1;
+  padding-top: 75px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+}
+.index_inner_button {
+  width: 80%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0),
+    rgb(157, 172, 202)
+  );
+  border-radius: 20px;
+  padding-top: 40px;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  border: none;
+}
+.index_inner_button:hover {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0),
+    rgb(43, 65, 110)
+  );
+}
